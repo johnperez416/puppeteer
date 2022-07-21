@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [16.0.0](https://github.com/puppeteer/puppeteer/compare/v15.5.0...v16.0.0) (2022-07-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Browser.connect requires an explicit product name when connecting to Firefox since Firefox does not support CDP's auto-attach.
+
+### Features
+
+* use CDP's auto-attach mechanism ([#8520](https://github.com/puppeteer/puppeteer/issues/8520)) ([a9fe19c](https://github.com/puppeteer/puppeteer/commit/a9fe19cbede4b3d9d790367d7a7b37a95df96911))
+
 ## [15.5.0](https://github.com/puppeteer/puppeteer/compare/v15.4.2...v15.5.0) (2022-07-21)
 
 
